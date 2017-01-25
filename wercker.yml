@@ -50,7 +50,7 @@ build:
     - script:
         name: go build
         code: |
-          go build ./...
+          go build -o main
 
     # Test the project
     - script:
